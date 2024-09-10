@@ -203,4 +203,4 @@ def ui_inspect(obj=None):
     object_inspector_ui.show()
 
 # Call function to show the UI
-
+# ui_inspect(str)
