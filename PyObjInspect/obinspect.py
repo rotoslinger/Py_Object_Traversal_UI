@@ -15,7 +15,7 @@ class ObjectInspectorUI(QtWidgets.QDialog):
     def __init__(self, obj=None, parent=get_maya_main_window()):
         super(ObjectInspectorUI, self).__init__(parent)
         
-        self.setWindowTitle("Method Inspector")
+        self.setWindowTitle("Python Object Inspector")
         self.resize(600, 400)  # Set initial size
 
         # Layout
